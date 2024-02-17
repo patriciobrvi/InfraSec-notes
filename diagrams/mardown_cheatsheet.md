@@ -1,6 +1,6 @@
 
-## Machete MD+Mermaid
-Machete de objetos en Mermaid para MarkDown (MD):
+## Cheatsheet MD+Mermaid
+Cheatsheet de objetos en Mermaid para MarkDown (MD):
 
 | Símbolos           | Resultado                          
 |--------------------|-------------------------------
@@ -11,7 +11,7 @@ Machete de objetos en Mermaid para MarkDown (MD):
 |Pipe \|texto\|        | Se utiliza para texto fuera de un objeto
 |Flecha -->        | Se utiliza para definir ownership
 
-## ejemplo
+## Ejemplo
 
 ```mermaid
 flowchart LR
@@ -20,7 +20,7 @@ B(Paréntesis)
 C((Doble Paréntesis))--> |Texto Pipe| D{Decisión} 
 ```
 
-## Ejemplo FLujo de markdown + Mermaid 
+## Ejemplo Flujo de markdown + Mermaid 
 
 ```mermaid
 flowchart TD
