@@ -28,6 +28,25 @@ B(Paréntesis)
 C((Doble Paréntesis))--> |Texto Pipe| D{Decisión} 
 ```
 
+## Código de ejemplo
+
+```bash
+```m̀ermaid
+flowchart TD
+    
+    A_Inicio((INICIO)) --> |Dato| B_accion[ACCION]
+    B_accion --> C_Decision{DECISION}
+    C_Decision -->|Dato 1| D[Auto]
+    D -->FIN((FIN))
+    C_Decision -->|Dato 2| E_accion[Moto] 
+    C_Decision -->|Dato 3| F_accion[Camion]
+    E_accion --> G(Cuadradondo)
+    F_accion --> G
+    
+    G --> decision_op{Otra Pregunta}
+    decision_op --> B_accion
+```
+
 ## Ejemplo Flujo de markdown + Mermaid 
 
 ```mermaid
@@ -45,3 +64,4 @@ flowchart TD
     G --> decision_op{Otra Pregunta}
     decision_op --> B_accion
 ```
+
